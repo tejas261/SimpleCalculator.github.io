@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <h1>Simple Arithmetic Calculator</h1>
+        <div class="displaybox">
+          <form>
+            <input class="screen" id="box" type="text" readonly />
+          </form>
+          <br />
+        </div>
+
+        <div class="row">
+          <button class="row1 color allclear" value="AC">AC</button>
+          <button class="row1 color clear" value="C">C</button>
+          <button class="row1 color" value=".">.</button>
+          <button class="row1 color" value="/">/</button>
+        </div>
+
+        <div class="row">
+          <button class="row1" value="7">7</button>
+          <button class="row1" value="8">8</button>
+          <button class="row1" value="9">9</button>
+          <button class="row1 color" value="*">*</button>
+        </div>
+
+        <div class="row">
+          <button class="row1" value="4">4</button>
+          <button class="row1" value="5">5</button>
+          <button class="row1" value="6">6</button>
+          <button class="row1 color" value="-">-</button>
+        </div>
+
+        <div class="row">
+          <button class="row1" value="1">1</button>
+          <button class="row1" value="2">2</button>
+          <button class="row1" value="3">3</button>
+          <button class="row1 color" value="+">+</button>
+        </div>
+
+        <div class="row">
+          <button class="row1" value="0">0</button>
+          <button class="row1 color" value="%">%</button>
+          <button class="color equal row1" id="big" value="=">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
