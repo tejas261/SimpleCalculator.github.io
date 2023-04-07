@@ -10,7 +10,7 @@
         let clickbutton = event.target.value;
         if(clickbutton === '='){
             if(screen.value!=''){
-                screen.value = eval(screen.value);
+                screen.value = eval(screen.value).toFixed(2);
             }
         }else if(clickbutton=='AC'){
             screen.value = ''
